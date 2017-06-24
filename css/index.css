@@ -1,0 +1,19 @@
+body {
+    background: #eee;
+}
+h1 {
+    text-align: center;
+}
+p {
+    font-size: 1.3em;
+    color: #68000a;
+}
+.border {
+    border: 1px solid red;
+    background: #f1f1f1;
+    color: #000;
+}
+.position {
+    position: absolute;
+    top: 150px;
+}
