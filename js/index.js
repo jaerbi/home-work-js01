@@ -19,7 +19,7 @@ function myQuadrEqua(a,b,c) {
     if (d > 0) {
         x1 = (-b + Math.sqrt(d)) / 2*a;
         x2 = (-b - Math.sqrt(d)) / 2*a;
-        result = 'Дискримінанта D >\ 0: D = '+ d +'<br> Рівняння має два корені: x1 = ' + x1 + ', x2 = ' + x2;
+        result = 'Дискримінанта D > 0: D = '+ d +'<br> Рівняння має два корені: x1 = ' + x1 + ', x2 = ' + x2;
         return result;
     }
     else if (d===0) {
