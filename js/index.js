@@ -1,6 +1,5 @@
 // alert('Hello World');
 
-
 var a = Number(prompt('Введіть значення А'));
 var b = Number(prompt('Введіть значення B'));
 var c = Number(prompt('Введіть значення C'));
@@ -20,16 +19,16 @@ function myQuadrEqua(a,b,c) {
     if (d > 0) {
         x1 = (-b + Math.sqrt(d)) / 2*a;
         x2 = (-b - Math.sqrt(d)) / 2*a;
-        result = 'Дискримінанта D > 0<br> Рівняння має два корені: x1 = ' + x1 + ', x2 = ' + x2;
+        result = 'Дискримінанта D > 0: D = '+ d +'<br> Рівняння має два корені: x1 = ' + x1 + ', x2 = ' + x2;
         return result;
     }
     else if (d===0) {
         x1 = -b / 2*a;
-        result = 'Дискримінанта D = 0<br> Рівняння має тільки один корінь: x1 = ' + x1;
+        result = 'Дискримінанта D = 0: D = '+ d +'<br> Рівняння має тільки один корінь: x1 = ' + x1;
         return result;
     }
     else if (d < 0){
-        result = 'Дискримінанта D < 0<br> Рівняння не має коренів';
+        result = 'Дискримінанта D < 0: D = '+ d +'<br> Рівняння не має коренів';
         return result;
     }
 }
