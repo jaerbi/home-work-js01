@@ -17,13 +17,13 @@ function myQuadrEqua(a,b,c) {
     var d = discCalc(b,a,c);
     
     if (d > 0) {
-        x1 = (-b + Math.sqrt(d)) / 2*a;
-        x2 = (-b - Math.sqrt(d)) / 2*a;
+        x1 = (-b + Math.sqrt(d)) / (2*a);
+        x2 = (-b - Math.sqrt(d)) / (2*a);
         result = '<div class="result">Дискримінанта D > 0: <b>D = '+ d +'</b><br> Рівняння має два корені: <b>x1 = ' + x1 + '</b>, <b>x2 = ' + x2 +'</b></div>';
         return result;
     }
     else if (d===0) {
-        x1 = -b / 2*a;
+        x1 = -b / (2*a);
         result = '<div class="result">Дискримінанта D = 0: <b>D = '+ d +'</b><br> Рівняння має тільки один корінь: <b>x1 = ' + x1 + '</b></div>';
         return result;
     }
